@@ -21,7 +21,7 @@ public class IndexController {
     @Autowired
     private UserService userService;
 
-    @GetMapping("index/index")
+    @GetMapping("/index/index")
     public String index(HttpSession session, Model model) {
         String user_id = (String) session.getAttribute("loginid");
         int user_no = holidayService.getSessionUserno(user_id);
