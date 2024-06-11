@@ -44,11 +44,11 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-		<dependency>
+		<!--<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -62,11 +62,11 @@
 		</dependency>
 		
 		<!--jsp 사용시 -->
-		<dependency> 
+		<!--<dependency> 
            	<groupId>org.apache.tomcat.embed</groupId> 
            	<artifactId>tomcat-embed-jasper</artifactId> 
            	<scope>provided</scope> 
-		</dependency>
+		</dependency>-->
 		<!-- spring 3버젼이후 jstl추가 -->
      <dependency>
          <groupId>jakarta.servlet</groupId>
